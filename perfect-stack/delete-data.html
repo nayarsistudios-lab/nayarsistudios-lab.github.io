@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Delete Your Data — Perfect Stack</title>
+<style>
+  :root {
+    --bg: #0a0b14;
+    --card: #12142280;
+    --text: #f4f7ff;
+    --muted: #9aa8c7;
+    --accent: #4dd8ff;
+    --border: #2a2f4a;
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f6f7fb;
+      --card: #ffffffcc;
+      --text: #12141f;
+      --muted: #545d78;
+      --accent: #0072b5;
+      --border: #dde1ee;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0a0b14; --card: #12142280; --text: #f4f7ff;
+    --muted: #9aa8c7; --accent: #4dd8ff; --border: #2a2f4a;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    line-height: 1.6;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
+    background: linear-gradient(90deg, #4dd8ff, #b76dff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .updated { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+  h2 {
+    font-size: 19px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    color: var(--accent);
+  }
+  p, li { color: var(--text); font-size: 15.5px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin: 18px 0;
+  }
+  .placeholder {
+    color: #ffb454;
+    font-weight: 600;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+    font-size: 14.5px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+  .overflow-x { overflow-x: auto; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Delete Your Data — Perfect Stack</h1>
+  <div class="updated">Perfect Stack · Nayprek Studios · Last updated: October 30, 2026</div>
+
+  <h2>What the game stores</h2>
+  <p>Perfect Stack does not ask you to create an account, and Nayprek Studios does not run its own servers. Your game data is kept in these places:</p>
+  <ul>
+    <li><strong>On your phone:</strong> best score, best combo, games played, achievements, the skins and purchases you own, your progress toward unlocking skins, and your settings.</li>
+    <li><strong>Google Play Games cloud save</strong> (only if you are signed in): a backup copy of the same progress, stored in your Google account.</li>
+    <li><strong>Google services used by the game:</strong> Google Play (purchases) and Google AdMob (ads).</li>
+  </ul>
+
+  <h2>1. Delete the data on your phone</h2>
+  <p>Choose one:</p>
+  <ul>
+    <li>Uninstall Perfect Stack, or</li>
+    <li>Open your phone's <strong>Settings → Apps → Perfect Stack → Storage</strong> and tap <strong>Clear data</strong>.</li>
+  </ul>
+  <p>This removes all progress stored on the phone. If you are signed in to Google Play Games, the cloud copy is not removed by this step (see below).</p>
+
+  <h2>2. Delete your cloud save</h2>
+  <p>Your cloud save is stored by Google Play Games in your Google account. To delete it:</p>
+  <ul>
+    <li>Open the Google Play Games settings on your phone (in the Play Games app, or in the Play Store under your profile).</li>
+    <li>Find the option to delete your Play Games data and choose Perfect Stack.</li>
+    <li>Confirm the deletion.</li>
+  </ul>
+  <p>The exact menu names can differ between phones and Play Games versions. You can also manage or delete your Google account data at <a href="https://myaccount.google.com/data-and-privacy" target="_blank" rel="noopener">myaccount.google.com/data-and-privacy</a>.</p>
+
+  <h2>3. Advertising</h2>
+  <p>To reset or delete your advertising ID, open your phone's <strong>Settings → Google → Ads</strong> (or <strong>Settings → Privacy → Ads</strong>).</p>
+
+  <h2>Purchases</h2>
+  <p>Purchases (such as Remove Ads and skin packs) are handled and recorded by Google Play, not by Nayprek Studios. Deleting your game data does not cancel or remove a purchase: after reinstalling, tap <strong>Restore Purchases</strong> in the game's Shop to get them back. For purchase records or refunds, see your Google Play order history.</p>
+
+  <h2>Need help?</h2>
+  <p>If you have any question about your data, or want us to help with a deletion request, email nayprekstudios@gmail.com with the subject "Perfect Stack data deletion". We reply within 30 days.</p>
+
+  <p>More details: <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
+
+  <footer>© 2026 Nayprek Studios</footer>
+</div>
+</body>
+</html>
